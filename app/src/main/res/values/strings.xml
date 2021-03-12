@@ -14,7 +14,7 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Egg Timer</string>
     <string name="egg_prompt">How do you like your egg?</string>
     <string name="timer_on">Start</string>
@@ -30,7 +30,7 @@
     <string name="breakfast_notification_channel_id" translatable="false">fcm_default_channel</string>
     <string name="breakfast_notification_channel_name" translatable="true">Breakfast</string>
     <string name="eggs_ready">It is time! Bon appetit!</string>
-    <string name="timer_running">Egg timer is running...</string>
+    <string name="timer_running" tools:ignore="TypographyEllipsis">Egg timer is running...</string>
     <string name="breakfast_notification_channel_description">Breakfast reminder</string>
     <string name="snooze">Snooze</string>
 </resources>
