@@ -33,4 +33,5 @@
     <string name="timer_running" tools:ignore="TypographyEllipsis">Egg timer is running...</string>
     <string name="breakfast_notification_channel_description">Breakfast reminder</string>
     <string name="snooze">Snooze</string>
+    <string name="breakfast_notification">Time for breakfast</string>
 </resources>
